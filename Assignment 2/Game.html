@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alexander Williamson Pong</title>
+	<link rel = "stylesheet" href = "style.css">
+	
+</head>
+<body>
+	<div class = "center">
+		<canvas id = "canvas" width = "600", height = "400"></canvas>
+	</div>
+	<div class = "center">
+		<button id = "start" class = "button" onclick = "startClicked()">Start</button>
+		<button id = "pause" class = "button" onclick = "pauseClicked()">Pause</button>
+		<button id = "restart" class = "button" onclick = "restartClicked()">Restart</button>
+		<button id = "botleft" class = "button off" onclick = "botLeftClicked()">Bot Left</button>
+		<button id = "botright" class = "button off" onclick = "botRightClicked()">Bot Right</button>
+	</div>
+	<div class = "center">
+		<p id = "messageDisplay"></p>
+	</div>
+	
+	<script src = "javascript.js"></script>
+</body>
+</html>

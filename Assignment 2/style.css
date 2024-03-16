@@ -1,0 +1,25 @@
+canvas{
+	background: #484848;
+	border: 3px solid black;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.button{
+  display: inline-block;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.off{
+	background-color: red;
+}
+
+.on{
+	background-color: green;
+}
